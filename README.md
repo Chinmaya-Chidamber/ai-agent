@@ -15,10 +15,10 @@ This is a simple AI-powered command-line agent built for the Workik AI internshi
 ---
 
 ### Technologies Used
--> Node.js
--> Axios
--> OpenRouter AI (Free GPT API)
--> Python (to run generated code)
+- Node.js
+-  Axios
+-  OpenRouter AI (Free GPT API)
+-  Python (to run generated code)
 
 ---
 
@@ -54,6 +54,8 @@ Suggested Python code:
 
 
 Do you want to save and execute it? [y/n]: y
+
+```
 try:
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
@@ -79,7 +81,7 @@ except ValueError:
     print("Error! Please enter valid numbers.")
 except Exception as e:
     print("An error occurred:", e)
-
+```
 
 Do you want to save and execute it? [y/n]:
 Code saved to task.py. Running it now...
@@ -88,11 +90,11 @@ Code saved to task.py. Running it now...
 
 ### Future Improvements:
 
-->Add task planning and approval step before execution
-->Implement retry mechanism based on user feedback
-->Build a VSCode Extension for bonus points
-->Enable multiple language support (JavaScript, C, etc.)
-->Improve security and sandboxing for executing code
+- Add task planning and approval step before execution
+- Implement retry mechanism based on user feedback
+- Build a VSCode Extension for bonus points
+- Enable multiple language support (JavaScript, C, etc.)
+- Improve security and sandboxing for executing code
 
 ### License
 This project is built as part of the Workik AI Internship Assignment — April 2025.
